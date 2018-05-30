@@ -1,3 +1,12 @@
+/*
+ * MovieCount MapReduce program by Kevin Geiszler
+ *
+ * This program uses MapReduce to count the number of movies each user in the Movielens
+ * ml-100k dataset has rated. This is the Driver file. There is also a Mapper and
+ * Reducer file. The results are spread throughout two text files. The first column
+ * displays the user's ID, and the second column shows how many movies they have rated.
+ */
+
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
