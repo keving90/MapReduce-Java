@@ -2,6 +2,10 @@
 ### Overview
 This program uses MapReduce to count the number of movies each user in the [Movielens ml-100k](https://grouplens.org/datasets/movielens/100k/) dataset has rated. The keys are a user ID, and the values are the number of movies the user has rated.
 
+The `u.data` dataset has columns of the following form: 
+
+user id | item id | rating | timestamp
+
 ### Specifics
 
 This job was created using a pseudo-distributed Hadoop cluster on a RedHat Enterprise Linux 7.2 virtual machine.
